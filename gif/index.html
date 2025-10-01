@@ -1,27 +1,21 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>lettuce</title>
-  <style>
-    html,body{height:100%;margin:0;font-family:system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;}
-    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:24px;box-sizing:border-box;}
-    .gif {max-width:90vw; max-height:80vh; box-shadow: 0 6px 24px rgba(0,0,0,0.12); border-radius:12px;}
-    .credit{margin-top:12px;color:#444;font-size:0.95rem;}
-  </style>
-</head>
-<body>
-  <main class="wrap">
-    <!-- If you uploaded my.gif into the /gif folder, this local path will work 
-    <img class="gif" src="my.gif" alt="My GIF" />
-    -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GIF (Tenor embed)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>html,body{height:100%;margin:0} .wrap{height:100%;display:flex;align-items:center;justify-content:center}</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- REPLACE postid & anchor href/text with the GIF you picked -->
+      <div class="tenor-gif-embed" data-postid="26220184" data-share-method="host" data-width="100%" data-aspect-ratio="1.6">
+        <a href="https://tenor.com/view/alface-lettuce-bitcoin-soneca-gif-26220184">Your GIF title</a> from <a href="https://tenor.com">Tenor</a>
+      </div>
+    </div>
 
-    <!-- OR use an external GIF: -->
-    <img class="gif" src="https://tenor.com/view/alface-lettuce-bitcoin-soneca-gif-26220184" alt="lettuce" />
-    
-
-    <div class="credit">Visit <a href="/">home</a> • <small>served by GitHub Pages</small></div>
-  </main>
-</body>
+    <!-- Tenor's embed script -->
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+  </body>
 </html>
+
